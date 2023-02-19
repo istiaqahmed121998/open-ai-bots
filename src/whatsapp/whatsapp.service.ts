@@ -7,7 +7,7 @@ export class WhatsappService implements OnModuleInit {
   constructor(private openaiService: OpenaiService) {}
   onModuleInit() {
     console.log(`Initialization...`);
-    this.botMessage();
+    // this.botMessage();
   }
   botMessage() {
     const client = new Client({
